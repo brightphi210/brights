@@ -1,0 +1,167 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400&family=Syne:wght@400;500;600;700&display=swap');
+
+  
+:root{
+    --black-color: #1A1A1A;
+    --white: white;
+    --orange: #FF9142;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: var(--black-color);
+}
+
+
+.sectionOne{
+    padding: 100px 15%;
+    padding-bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 50px;
+}
+
+
+.sectionOne h2,h3{
+    font-family: 'Syne', sans-serif;
+    z-index: 3;
+}
+
+
+.sectionOne h3{
+    font-size: 20px;
+    color: var(--white);
+    text-align: left;
+}
+.sectionOne h2{
+    font-size: 40px;
+    color: var(--white);
+    text-align: left;
+    
+}
+
+.sectionOne p{
+    text-align: left;
+    color: var(--white);
+    font-size: 18px;
+    color:#808080;
+}
+
+
+.firstP{
+    padding: 30px 0;
+}
+
+
+.btnClass{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin-top: 30px;
+}
+.icons i{
+    font-size: 25px;
+    color: var(--white);
+    cursor: pointer;
+    padding-right:10px ;
+}
+
+.btn{
+    padding: 10px 40px;
+    border: none;
+    background-color: var(--orange);
+    color: var(--black-color);
+    font-weight: 500;
+    font-size: 16px; 
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #f09b5f;
+    transition: all ease 0.5s;
+}
+
+
+
+
+.picSection img{
+    width: 100%;
+    padding-top: 100px;
+}
+
+.blur img{
+    position: absolute;
+    width: 50%;
+    top: 50px;
+    right: 0;
+    z-index: -3;
+}
+
+.blur2 img{
+    position: absolute;
+    width: 50%;
+    bottom: 400px;
+    left: 0;
+    z-index: -3;
+}
+
+
+@media only screen and (min-width: 321px) and (max-width: 768px) {
+    .blur2 img{
+        bottom: 40px;
+    }
+    .sectionOne{
+        padding: 160px 5%;
+        padding-bottom: 10px;
+        grid-template-columns: 1fr;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .sectionOne h3{
+        font-size: 18px;
+        padding-bottom: 10px;
+    }
+    .sectionOne h2{
+        font-size: 23px;
+    }
+    
+    .sectionOne p{
+        font-size: 14px;
+    }
+
+    .btnClass{
+        display: flex;
+        align-items: center;
+        align-content: center;
+        margin-top: 30px;
+    }
+    .icons i{
+        font-size: 20px;
+        color: var(--white);
+        cursor: pointer;
+        padding-right:10px ;
+    }
+    
+    .btn{
+        padding: 10px 20px;
+        font-size: 14px; 
+    }
+
+    .picSection img{
+        width: 100%;
+        padding-top: 20px;
+    }
+}
+

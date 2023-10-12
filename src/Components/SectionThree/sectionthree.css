@@ -1,0 +1,89 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400&family=Syne:wght@400;500;600;700&display=swap');
+
+:root{
+    --black-color: #1A1A1A;
+    --white: white;
+    --orange: #FF9142;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: var(--white);
+}
+
+
+.sectionThree{
+    padding: 60px 15%;
+}
+
+.sectionThree h3{
+    font-family: 'Syne', sans-serif;
+    padding: 10px;
+    width: 15%;
+    background-color: #323232;
+}
+
+.sectionThree h2{
+    font-family: 'Syne', sans-serif;
+    font-size: 30px;
+}
+
+
+.contactDiv{
+    padding-top: 30px;
+}
+
+.contactDiv p{
+    background-color: #323232;
+    margin-bottom: 20px;
+    padding: 15px;
+    font-family: 'Syne', sans-serif;  
+    font-size: 20px;
+    font-weight: 500;
+}
+
+hr{
+    border:#323232 1px solid;
+    margin-top: 100px;
+}
+
+.lastP{
+    font-size: 15px;
+    color: #8a8989;
+    font-family: 'Syne', sans-serif;
+    padding-top: 20px;
+}
+
+
+@media only screen and (min-width: 321px) and (max-width: 768px) {
+    .sectionThree{
+        padding: 60px 8%;
+        padding-top: 100px;
+    } 
+
+    .sectionThree h3{
+        width: 40%;
+        font-size: 15px;
+    }
+
+    .sectionThree h2{
+        font-size: 20px;
+        padding-top: 10px;
+    }
+
+    hr{
+        border:#323232 1px solid;
+        margin-top: 50px;
+    }
+
+    .contactDiv p{
+        font-size: 16px;
+    }
+}

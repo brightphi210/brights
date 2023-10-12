@@ -1,0 +1,137 @@
+:root{
+    --black-color: #1A1A1A;
+    --white: white;
+    --orange: #FF9142;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+body{
+    background-color: var(--black-color);
+}
+
+
+.navSection{
+    padding: 30px 10%;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    background-color: var(--black-color);
+    width: 100%;
+    position: fixed;
+    z-index: 3;
+}
+
+
+.navSection img{
+    width: 100px;
+}
+.ulSection{}
+
+
+.ulSection li{
+    display: inline-block;
+    margin-right: 30px;
+    color: white;
+    font-size: 15px;
+    position: relative;
+    font-family: Syne;
+}
+
+.ulSection li::after {
+    content: "";
+    position: absolute;
+    width: 90%;
+    transform: scaleX(0);
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    bottom: -6px;
+    background-color: var(--orange);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.ulSection li:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.closeicons{
+    display: none;
+}
+
+.openicons{
+    display: none;
+}
+
+@media only screen and (min-width: 321px) and (max-width: 768px) {
+    .closeicons{
+        display: block;
+        color: var(--orange);
+        font-size: 30px;
+        position: absolute;
+        top: 10px;
+        right: 50px;    
+    }
+
+    .openicons{
+        display: block;
+        color: var(--orange);
+        font-size: 25px;
+        position: absolute;
+        top: 30px;
+        right: 50px;
+    }
+
+
+
+    .navSection img{
+        width: 100px;
+        margin-left: 30px;
+        margin-bottom: 20px;
+    }
+
+    .navSection{
+        padding: 30px 0%;
+        grid-template-columns: 1fr;
+    } 
+
+    .ulSection{
+        background-color:#121212;
+        display: block;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 100px;
+        right: -100%;
+        bottom: 0;
+        padding: 50px;
+        z-index: 100;
+    }
+
+    .ulSection li{
+        display: block; 
+        width: 20%;
+        margin-bottom: 30px;
+        font-size: 18px;
+    }
+
+    .open{
+        right: 0;
+        transition: all 0.5s ease;
+    }
+
+    .close{
+        right: -100%;
+        transition: all 0.5s ease;
+    }
+}
+  
+

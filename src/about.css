@@ -1,0 +1,148 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400&family=Syne:wght@400;500;600;700&display=swap');
+
+:root{
+    --black-color: #1A1A1A;
+    --white: white;
+    --orange: #FF9142;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.sectionOnea{
+    padding: 100px 15%;
+    padding-bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 50px;
+}
+
+
+.sectionOnea h2,h3{
+    font-family: 'Syne', sans-serif;
+    z-index: 3;
+}
+
+
+.sectionOnea h3{
+    font-size: 20px;
+    color: var(--white);
+    text-align: left;
+}
+.sectionOnea h2{
+    font-size: 40px;
+    color: var(--white);
+    text-align: left;
+}
+
+.sectionOnea p{
+    text-align: left;
+    color: var(--white);
+    font-size: 18px;
+    color:#808080;
+}
+
+
+.firstP{
+    padding: 30px 0;
+}
+
+
+.picSection img{
+    width: 100%;
+    padding-top: 100px;
+}
+
+.main{
+    padding: 100px 15%;
+}
+
+
+.main p{
+    padding-bottom: 20px;
+    text-align: justify;
+    color:#808080;
+    font-size: 18px;
+}
+
+
+
+.experience{
+    padding: 40px 15%;
+}
+
+.experience .exh3{
+    font-family: 'Syne', sans-serif;
+    padding: 10px;
+    width: 15%;
+    background-color: #323232;
+    font-size: 14px;
+}
+
+.experience h2{
+    font-size: 30px;
+    font-family: 'Syne', sans-serif;
+    padding: 10px 0;
+}
+
+.exDiv1{
+    padding: 20px;
+    background-color: #323232;
+    margin-bottom: 20px;
+}
+
+.exDiv1 h3{
+    font-size: 20px;
+}
+
+.exDiv1 p{
+    color: #808080;
+}
+
+
+
+@media only screen and (min-width: 321px) and (max-width: 768px) {
+    .sectionOnea{
+        padding: 80px 8%;
+        padding-bottom: 0;
+        grid-template-columns: 1fr;
+    }
+
+    .sectionOnea h2{
+        font-size: 30px;
+        padding-top: 10px;
+    }
+
+    .sectionOnea p{
+        font-size: 14px;
+    }
+
+    .main{
+        padding: 50px 8%;
+    }
+
+    .main p{
+        font-size: 14px;
+    }
+
+
+    .experience{
+        padding: 10px 8%;
+    }
+
+    .experience h2{
+        font-size: 25px;
+    }
+
+    .experience .exh3{
+        width: 60%;
+    }
+}
