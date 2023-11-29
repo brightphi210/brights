@@ -117,7 +117,7 @@ body{
 }
 
 
-@media only screen and (min-width: 321px) and (max-width: 768px) {
+@media only screen and (min-width: 320px) and (max-width: 768px) {
     .blur2 img{
         bottom: 40px;
     }

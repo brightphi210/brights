@@ -32,7 +32,9 @@ body{
 .navSection img{
     width: 100px;
 }
-.ulSection{}
+.ulSection{
+
+}
 
 
 .ulSection li{
@@ -71,7 +73,7 @@ body{
     display: none;
 }
 
-@media only screen and (min-width: 321px) and (max-width: 768px) {
+@media only screen and (min-width: 320px) and (max-width: 768px) {
     .closeicons{
         display: block;
         color: var(--orange);
