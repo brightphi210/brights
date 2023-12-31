@@ -24,8 +24,8 @@ const About = () => {
 
         <div data-aos="fade-up" data-aos-duration="3000">
           <h3>About me 🧑</h3>
-          <h2>I'm Bright C. Philip, a full-stack developer, product designer based in PH, Nigeria. 🇳🇬</h2>
-          <p className='firstP'>I'm a creative full-stack developer, product designer  with a passion for creating innovative Web and mobile app and intuitive user experiences.</p>
+          <h2>I'm Bright C. Philip, a full-stack developer, mobile developer based in PH, Nigeria. 🇳🇬</h2>
+          <p className='firstP'>I'm a creative full-stack developer, mobile developer  with a passion for creating innovative Web and mobile app and intuitive user experiences.</p>
           <p className='secP'>With over three years of experience in both web2 and web3 technology, I have a unique skill-set that allows me design and develop products that are both functional, usable and visually appealing. </p>
         </div>
       </section>
