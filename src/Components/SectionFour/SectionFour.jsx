@@ -41,11 +41,10 @@ const SectionFour = () => {
 
 
           <div className='eachDiv' data-aos="fade-up" data-aos-duration="1000">
-            <h2>Product Desing</h2>
+            <h2>Mobile Development</h2>
+            <p><i class="uil uil-arrow-right"></i> React Native</p>
+            <p><i class="uil uil-arrow-right"></i> Andriod Studio</p>
             <p><i class="uil uil-arrow-right"></i> Figma</p>
-            <p><i class="uil uil-arrow-right"></i> Adobe Photoshop</p>
-            <p><i class="uil uil-arrow-right"></i> Corel Draw</p>
-            <p><i class="uil uil-arrow-right"></i> Visly</p>
           </div>
         </div>
       </section>
