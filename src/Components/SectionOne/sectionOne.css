@@ -23,7 +23,7 @@ body{
 
 
 .sectionOne{
-    padding: 100px 15%;
+    padding: 100px 12%;
     padding-bottom: 0;
     display: grid;
     grid-template-columns: 1fr 1fr;

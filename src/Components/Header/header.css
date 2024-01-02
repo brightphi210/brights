@@ -20,7 +20,7 @@ body{
 .navSection{
     padding: 30px 10%;
     align-items: center;
-    display: grid;
+    display: flex;
     grid-template-columns: 3fr 1fr;
     background-color: var(--black-color);
     width: 100%;
@@ -33,7 +33,7 @@ body{
     width: 100px;
 }
 .ulSection{
-
+    margin-left: auto;
 }
 
 
