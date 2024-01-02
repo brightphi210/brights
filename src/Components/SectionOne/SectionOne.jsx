@@ -21,7 +21,7 @@ const SectionOne = () => {
   return (
     <div>
       <section className='sectionOne'>
-        <div data-aos="fade-up" data-aos-duration="3000">
+        <div data-aos="fade-up" data-aos-duration="3000" className='secOneDiv'>
           <h3>Hello 👋</h3>
           <h2>I'm a full-stack developer, <br /> Mobile Developer based in PH, Nigeria. 🇳🇬</h2>
           <p className='firstP'>I'm a creative full-stack developer, mobile developer  with a passion for creating innovative Web and mobile app and intuitive user experiences.</p>

@@ -44,7 +44,7 @@ body{
     text-align: left;
 }
 .sectionOne h2{
-    font-size: 40px;
+    font-size: 35px;
     color: var(--white);
     text-align: left;
     
@@ -94,7 +94,9 @@ body{
 
 
 
-
+.secOneDiv {
+    padding-top: 100px;
+}
 .picSection img{
     width: 100%;
     padding-top: 100px;
@@ -163,5 +165,9 @@ body{
         width: 100%;
         padding-top: 20px;
     }
+
+    .secOneDiv {
+    padding-top: 0;
+}
 }
 
