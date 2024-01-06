@@ -4,7 +4,7 @@ import imageOne from './data1.png'
 import imageTwo from './data2.png'
 import imageThree from './data3.png'
 import imageFour from './data4.png'
-import imageFive from './data5.png'
+import imageFive from './Screenshot (149).png'
 import imageSix from './data6.png'
 import imageSeven from './7.png'
 import blur3 from './fade.png'
@@ -36,19 +36,26 @@ useEffect(() => {
             </div>
             <div className='imageflex'>
 
-                <div data-aos="fade-up" data-aos-duration="1000">
-                    <p>Web App: Fully Functional and responsive Music Website </p>
-                    <Link className='seeMore' to={'https://thatsongs.com/'}>See Website <i class="uil uil-arrow-up-right"></i></Link>
-                    <Link  to={'https://thatsongs.com/'}><img src={imageFive}alt="" /></Link>
-                </div>
-
 
                 <div data-aos="fade-up" data-aos-duration="1000">
-                    <p>Web App: Fully Functional Mutltiple User Role Website </p>
+                    <p>Web App: Fully Functional Mutltiple User Role Website that Connect a Contractor to relevant skilled workers, and major distributor of building materials </p>
                     <Link className='seeMore' to={'https://bilding.vercel.app/'}>See Website <i class="uil uil-arrow-up-right"></i></Link>
                     <Link  to={'https://bilding.vercel.app/'}><img src={imageSeven}alt="" /></Link>
                 </div>
 
+
+                <div data-aos="fade-up" data-aos-duration="1000">
+                    <p>Web App: This Connects Creatives(People with Digital and Non-Digital Skill ) to Client(Customers who needs the services) together</p>
+                    <Link className='seeMore' to={'https://creve.vercel.app/'}>See Website <i class="uil uil-arrow-up-right"></i></Link>
+                    <Link  to={'https://creve.vercel.app/'}><img src={imageFive}alt="" /></Link>
+                </div>
+
+
+                <div data-aos="fade-up" data-aos-duration="1000">
+                    <p>Web App: Fuly Function blog app, where you can buy magazines, read few stories and get full news content on various categories </p>
+                    See Website <i class="uil uil-arrow-up-right"></i>
+                    <Link to={'https://genz-square.vercel.app/'}><img src={imageFour}alt="" /></Link>
+                </div>
 
                 <div data-aos="fade-up" data-aos-duration="1000">
                     <p>Web App: A fully well developed funtional and responsive Construction website for PRIME PROJECT CONSTRUCTION</p>
@@ -76,11 +83,7 @@ useEffect(() => {
                     <Link to={'https://maxalzon.com/'}><img src={imageThree}alt="" /></Link>
                 </div>
 
-                <div data-aos="fade-up" data-aos-duration="1000">
-                    <p>Web App: Scalable and responsive web app for GENZ </p>
-                    See Website <i class="uil uil-arrow-up-right"></i>
-                    <img src={imageFour}alt="" />
-                </div>
+
 
             </div>
         </section>
