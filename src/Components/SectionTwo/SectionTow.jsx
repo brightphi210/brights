@@ -7,6 +7,7 @@ import imageFour from './data4.png'
 import imageFive from './Screenshot (149).png'
 import imageSix from './data6.png'
 import imageSeven from './7.png'
+import imageEight from './Screenshot (153).png'
 import blur3 from './fade.png'
 import blur4 from './fade2.png'
 import { Link } from 'react-router-dom'
@@ -58,10 +59,18 @@ useEffect(() => {
                 </div>
 
                 <div data-aos="fade-up" data-aos-duration="1000">
+                    <p>Web App: A fully well developed funtional and responsive Event Booking Web App</p>
+                    <Link className='seeMore' to={'https://algoca.vercel.app/'}>See Website <i class="uil uil-arrow-up-right"></i></Link>
+                    <Link  to={'https://algoca.vercel.app/'}><img src={imageEight}alt="" /></Link>
+                </div>
+
+
+                <div data-aos="fade-up" data-aos-duration="1000">
                     <p>Web App: A fully well developed funtional and responsive Construction website for PRIME PROJECT CONSTRUCTION</p>
                     <Link className='seeMore' to={'https://primeprojectsconstruction.com/'}>See Website <i class="uil uil-arrow-up-right"></i></Link>
                     <Link  to={'https://primeprojectsconstruction.com/'}><img src={imageOne}alt="" /></Link>
                 </div>
+
 
 
 
