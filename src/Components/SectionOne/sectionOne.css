@@ -100,6 +100,7 @@ body{
 .picSection img{
     width: 100%;
     padding-top: 100px;
+    border-radius: 10px;
 }
 
 .blur img{
