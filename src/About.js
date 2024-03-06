@@ -67,33 +67,29 @@ const About = () => {
       <section className='experience'>
         <h3 className='exh3'>Work Experience 👩‍🏭</h3>
         <h2>Employment History</h2>
-        <div className='exDiv1' data-aos="zoom-in-up" data-aos-duration="3000">
-          <h3>Full Stack Developer - BMP Inovations(Full-time)</h3>
-          <p>Dec 2020 - Present - Port Harcourt, Nigeria </p>
-        </div>
 
         <div className='exDiv1' data-aos="zoom-in-up" data-aos-duration="3000">
-          <h3>Web Developer - VAST Integrated Solutions Ltd (Contract)</h3>
-          <p>Apr 2023 - Present - Port Harcourt, Nigeria </p>
+          <h3>Fullstack Developer(Django, React JS) - Crypto Smart(Part-time)</h3>
+          <p>October 2023 - Present -Port Harcourt, Nigeria </p>
         </div>
 
 
         <div className='exDiv1' data-aos="zoom-in-up" data-aos-duration="3000">
-          <h3>Full Stack Developer - VATSpace(Full-time)</h3>
-          <p>Feb 2023 - Present -Port Harcourt, Nigeria </p>
+          <h3>Front-End Developer(React JS) - Bilding Construction(Contract)</h3>
+          <p>September 2023 - Present -Port Harcourt, Nigeria </p>
         </div>
 
-
         <div className='exDiv1' data-aos="zoom-in-up" data-aos-duration="3000">
-          <h3>Backend Developer - GENZ(Contract)</h3>
+          <h3>Backend Developer(Django) - GENZ(Contract)</h3>
           <p>June 2023 - Present -Port Harcourt, Nigeria </p>
         </div>
 
 
         <div className='exDiv1' data-aos="zoom-in-up" data-aos-duration="3000">
-          <h3>Fullstack Developer - Bilding Construction(Contract)</h3>
-          <p>September 2023 - Present -Port Harcourt, Nigeria </p>
+          <h3>Full Stack Developer(Django, React JS) - BMP Inovations(Part-time)</h3>
+          <p>Dec 2020 - Present - Port Harcourt, Nigeria </p>
         </div>
+
       </section>
 
       <SectionThree />

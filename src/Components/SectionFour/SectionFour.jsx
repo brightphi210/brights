@@ -22,9 +22,7 @@ const SectionFour = () => {
             <p><i class="uil uil-arrow-right"></i> Django Rest Framework</p>
             <p><i class="uil uil-arrow-right"></i> Rest Api</p>
             <p><i class="uil uil-arrow-right"></i> Superbase</p>
-            <p><i class="uil uil-arrow-right"></i> Firebase</p>
             <p><i class="uil uil-arrow-right"></i> Postgress</p>
-            <p><i class="uil uil-arrow-right"></i> MySQL</p>
           </div>
 
           <div className='eachDiv' data-aos="fade-up" data-aos-duration="1000">
@@ -35,7 +33,7 @@ const SectionFour = () => {
             <p><i class="uil uil-arrow-right"></i> React JS</p>
             <p><i class="uil uil-arrow-right"></i> Next JS</p>
             <p><i class="uil uil-arrow-right"></i> Bootstrap</p>
-            <p><i class="uil uil-arrow-right"></i> Tailwindcss</p>
+            <p><i class="uil uil-arrow-right"></i> TailwindCSS</p>
             <p><i class="uil uil-arrow-right"></i> Daisy UI</p>
           </div>
 
@@ -43,7 +41,6 @@ const SectionFour = () => {
           <div className='eachDiv' data-aos="fade-up" data-aos-duration="1000">
             <h2>Mobile Development</h2>
             <p><i class="uil uil-arrow-right"></i> React Native</p>
-            <p><i class="uil uil-arrow-right"></i> Andriod Studio</p>
             <p><i class="uil uil-arrow-right"></i> Figma</p>
           </div>
         </div>
