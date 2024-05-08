@@ -6,8 +6,8 @@ import Contact from "./Contact";
 import Works from "./Works";
 
 
-
 function App() {
+  
   return (
     <div className="App">
       <BrowserRouter>
