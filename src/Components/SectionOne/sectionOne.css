@@ -97,6 +97,10 @@ body{
 .secOneDiv {
     padding-top: 100px;
 }
+
+.picSection{
+    border-radius: 10px;
+}
 .picSection img{
     width: 100%;
     padding-top: 100px;
