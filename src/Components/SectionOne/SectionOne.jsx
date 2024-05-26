@@ -27,7 +27,9 @@ const SectionOne = () => {
           <p className='firstP'>I'm a creative Full-stack developer, mobile developer  with a passion for creating innovative Web and mobile app and intuitive user experiences.</p>
           <p className='secP'>With over three years of experience in the field, I have a unique skill-set that allows me design and develop products that are both functional, usable and visually appealing. </p>
           <div className='btnClass'>
-            <a href={profile2} download><button className='btn'>View CV/Resume </button></a>
+              <Link to={"https://drive.google.com/file/d/14c0tre8kpLkJBgF8hfeE7YgBc1uRTXTL/view?usp=drive_link"}>
+                <button className='btn'>View CV/Resume </button>
+              </Link>
             
             <div className='icons'>
               <Link to={"https://www.linkedin.com/in/chibuzor-philip12/"}><i class="uil uil-linkedin"></i></Link>
