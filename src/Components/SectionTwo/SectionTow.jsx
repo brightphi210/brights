@@ -4,7 +4,7 @@ import imageOne from './data1.png'
 import imageTwo from './data2.png'
 import imageThree from './data3.png'
 import imageFour from './data4.png'
-import imageFive from './Screenshot (149).png'
+import imageFive from './Screenshot (42).png'
 import imageSix from './data6.png'
 import imageSeven from './7.png'
 import imageEight from './Screenshot (153).png'
@@ -53,8 +53,8 @@ useEffect(() => {
 
 
                 <div data-aos="fade-up" data-aos-duration="1000">
-                    <Link className='seeMore' to={'https://creve.vercel.app/'}>See Website <i class="uil uil-arrow-up-right"></i></Link>
-                    <Link  to={'https://creve.vercel.app/'}><img src={imageFive}alt="" /></Link>
+                    <Link className='seeMore' to={'https://crevenew.vercel.app/'}>See Website <i class="uil uil-arrow-up-right"></i></Link>
+                    <Link  to={'https://crevenew.vercel.app/'}><img src={imageFive}alt="" /></Link>
                 </div>
 
 
