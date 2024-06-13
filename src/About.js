@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from './Components/Header/Header'
-import pics from './pics.png'
+import pics from '../src/Components/SectionOne/Untitled design (1).png'
 import './about.css'
 
 import AOS from 'aos';

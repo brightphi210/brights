@@ -146,3 +146,16 @@
         width: 60%;
     }
 }
+
+
+@media only screen and (min-width: 769px) and (max-width: 1202px) {
+    .sectionOnea{
+        padding: 80px 5%;
+        padding-bottom: 0;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .experience{
+        padding: 40px 5%;
+    }
+}
