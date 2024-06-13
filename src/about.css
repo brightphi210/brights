@@ -135,7 +135,7 @@
 
 
     .experience{
-        padding: 10px 8%;
+        padding: 40px 8%;
     }
 
     .experience h2{
@@ -144,6 +144,15 @@
 
     .experience .exh3{
         width: 60%;
+    }
+
+    .exDiv1 h3{
+        font-size: 15px;
+    }
+
+    .exDiv1 p{
+        color: #808080;
+        font-size: 12px;
     }
 }
 
@@ -157,5 +166,14 @@
 
     .experience{
         padding: 40px 5%;
+    }
+
+    .exDiv1 h3{
+        font-size: 15px;
+    }
+
+    .exDiv1 p{
+        color: #808080;
+        font-size: 12px;
     }
 }

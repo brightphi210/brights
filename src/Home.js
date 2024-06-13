@@ -12,6 +12,22 @@ const Home = () => {
       <SectionOne />
       <SectionTow />
       <SectionFour />
+      <section className='experience'>
+        <h3 className='exh3'>Work Experience 👩‍🏭</h3>
+        <h2>Employment History</h2>
+
+        <div className='exDiv1' data-aos="zoom-in-up" data-aos-duration="3000">
+          <h3>Fullstack Developer(Django, React JS) - Crypto Smart(Part-time)</h3>
+          <p>October 2023 - Present -Port Harcourt, Nigeria </p>
+        </div>
+
+
+        <div className='exDiv1' data-aos="zoom-in-up" data-aos-duration="3000">
+          <h3>Full Stack Developer(Django, React JS) - BMP Inovations(Part-time)</h3>
+          <p>Dec 2020 - Present - Port Harcourt, Nigeria </p>
+        </div>
+
+      </section>
       <SectionThree />
 
     </div>

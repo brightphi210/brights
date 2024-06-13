@@ -75,17 +75,6 @@ const About = () => {
 
 
         <div className='exDiv1' data-aos="zoom-in-up" data-aos-duration="3000">
-          <h3>Front-End Developer(React JS) - Bilding Construction(Contract)</h3>
-          <p>September 2023 - Present -Port Harcourt, Nigeria </p>
-        </div>
-
-        <div className='exDiv1' data-aos="zoom-in-up" data-aos-duration="3000">
-          <h3>Backend Developer(Django) - GENZ(Contract)</h3>
-          <p>June 2023 - Present -Port Harcourt, Nigeria </p>
-        </div>
-
-
-        <div className='exDiv1' data-aos="zoom-in-up" data-aos-duration="3000">
           <h3>Full Stack Developer(Django, React JS) - BMP Inovations(Part-time)</h3>
           <p>Dec 2020 - Present - Port Harcourt, Nigeria </p>
         </div>
