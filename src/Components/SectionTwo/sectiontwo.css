@@ -81,3 +81,15 @@
         color:#5b5b5b;
     }
 }
+
+
+
+@media only screen and (min-width: 769px) and (max-width: 1200px) {
+    .sectioTwo{
+        padding: 50px 5%;
+    }
+
+    .sectioTwo h3{
+        width: fit-content;
+    }
+}

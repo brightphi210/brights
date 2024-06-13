@@ -99,12 +99,11 @@ body{
 }
 
 .picSection{
-    border-radius: 10px;
+    border-radius: 50px;
+    width: 100%;
 }
 .picSection img{
-    width: 100%;
-    padding-top: 100px;
-    border-radius: 10px;
+    border-radius: 50px;
 }
 
 .blur img{
@@ -176,3 +175,40 @@ body{
 }
 }
 
+
+
+@media only screen and (min-width: 769px) and (max-width: 1200px) {
+    .sectionOne{
+        padding: 80px 5%;
+        padding-bottom: 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        gap: 50px;
+    }
+
+
+    .sectionOne h3{
+        font-size: 15px;
+        padding-bottom: 10px;
+    }
+    .sectionOne h2{
+        font-size: 20px;
+    }
+    
+    .sectionOne p{
+        font-size: 12px;
+    }
+
+
+    .btn{
+        padding: 10px 20px;
+        border: none;
+        background-color: var(--orange);
+        color: var(--black-color);
+        font-weight: 500;
+        font-size: 12px; 
+        margin-right: 10px;
+        cursor: pointer;
+    }
+}
