@@ -3,7 +3,7 @@ import "./sectionOne.css"
 import blur from './fade.png'
 import blur2 from './fade2.png'
 import blur3 from './fade.png'
-import pics from './ccvv.png'
+import pics from './Untitled design (1).png'
 import profile  from './Profile.pdf'
 import profile2  from './Profile2.pdf'
 

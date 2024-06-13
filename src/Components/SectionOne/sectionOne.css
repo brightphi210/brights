@@ -23,7 +23,7 @@ body{
 
 
 .sectionOne{
-    padding: 80px 12%;
+    padding: 150px 12%;
     padding-bottom: 0;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -99,11 +99,14 @@ body{
 }
 
 .picSection{
-    border-radius: 50px;
+    border-radius: 50%;
     width: 100%;
+    height: 40rem;
+    overflow: hidden;
 }
 .picSection img{
     border-radius: 50px;
+    width: 100%;
 }
 
 .blur img{
@@ -166,8 +169,15 @@ body{
     }
 
     .picSection img{
-        width: 100%;
+        width: 110%;
         padding-top: 20px;
+    }
+
+    .picSection{
+        border-radius: 50%;
+        width: 100%;
+        height: 25rem;
+        overflow: hidden;
     }
 
     .secOneDiv {
@@ -177,7 +187,7 @@ body{
 
 
 
-@media only screen and (min-width: 769px) and (max-width: 1200px) {
+@media only screen and (min-width: 769px) and (max-width: 1202px) {
     .sectionOne{
         padding: 80px 5%;
         padding-bottom: 0;
