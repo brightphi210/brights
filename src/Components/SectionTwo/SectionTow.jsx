@@ -13,6 +13,7 @@ import imageTen from './ten.png'
 import imageEleven from './11.png'
 import imageTwleve from './12.png'
 import imageThirteen from './13.png'
+import imageFourtheen from './voice.png'
 
 
 
@@ -45,6 +46,17 @@ useEffect(() => {
             </div>
             <div className='imageflex'>
 
+                <div data-aos="fade-up" data-aos-duration="1000">
+                    <Link className='seeMore' to={'https://crevenew.vercel.app/'}>See Website <i class="uil uil-arrow-up-right"></i></Link>
+                    <Link  to={'https://crevenew.vercel.app/'}><img src={imageFive}alt="" /></Link>
+                </div>
+
+
+                <div data-aos="fade-up" data-aos-duration="1000">
+                    <Link className='seeMore' to={'https://voicechats.vercel.app/'}>See Website <i class="uil uil-arrow-up-right"></i></Link>
+                    <Link  to={'https://voicechats.vercel.app/'}><img src={imageFourtheen}alt="" /></Link>
+                </div>
+
 
                 <div data-aos="fade-up" data-aos-duration="1000">
                     <Link className='seeMore' to={'https://quill-umber.vercel.app/'}>See Website <i class="uil uil-arrow-up-right"></i></Link>
@@ -52,10 +64,6 @@ useEffect(() => {
                 </div>
 
 
-                <div data-aos="fade-up" data-aos-duration="1000">
-                    <Link className='seeMore' to={'https://crevenew.vercel.app/'}>See Website <i class="uil uil-arrow-up-right"></i></Link>
-                    <Link  to={'https://crevenew.vercel.app/'}><img src={imageFive}alt="" /></Link>
-                </div>
 
 
                 <div data-aos="fade-up" data-aos-duration="1000">
