@@ -24,10 +24,10 @@ const SectionOne = () => {
         <div data-aos="fade-up" data-aos-duration="3000" className='secOneDiv'>
           <h3>Hello 👋</h3>
           <h2>I'm a Snr. Frontend Dev,  <br /> Backend Dev  based in PH, Nigeria. 🇳🇬</h2>
-          <p className='firstP'>I'm a creative Full-stack developer, mobile developer  with a passion for creating innovative Web and mobile app and intuitive user experiences.</p>
-          <p className='secP'>With over three years of experience in the field, I have a unique skill-set that allows me design and develop products that are both functional, usable and visually appealing. </p>
+          <p className='firstP'>I'm a creative Full-stack developer, with a passion for creating innovative applications and intuitive user experiences.</p>
+          <p className='secP'>With over three years of experience in the field, I have a unique skill-set that allows me develop products that are both functional, usable and visually appealing. </p>
           <div className='btnClass'>
-              <Link to={"https://drive.google.com/file/d/14c0tre8kpLkJBgF8hfeE7YgBc1uRTXTL/view?usp=drive_link"}>
+              <Link to={"https://drive.google.com/file/d/1-EmgZyrxCoZY2lD7AD99BlnPVOFGGQyd/view?usp=sharing"}>
                 <button className='btn'>View CV/Resume </button>
               </Link>
             

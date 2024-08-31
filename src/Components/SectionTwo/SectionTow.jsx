@@ -14,6 +14,8 @@ import imageEleven from './11.png'
 import imageTwleve from './12.png'
 import imageThirteen from './13.png'
 import imageFourtheen from './voice.png'
+import back1 from './back.png'
+import back2 from './back2.png'
 
 
 
@@ -63,7 +65,10 @@ useEffect(() => {
                     <Link  to={'https://quill-umber.vercel.app/'}><img src={imageNine}alt="" /></Link>
                 </div>
 
-
+                <div data-aos="fade-up" data-aos-duration="1000">
+                    <Link className='seeMore' to={'https://welearnapi.fun/swagger/'}>See Website <i class="uil uil-arrow-up-right"></i></Link>
+                    <Link  to={'https://welearnapi.fun/swagger/'}><img src={back1}alt="" /></Link>
+                </div>
 
 
                 <div data-aos="fade-up" data-aos-duration="1000">
@@ -72,6 +77,10 @@ useEffect(() => {
                 </div>
 
 
+                <div data-aos="fade-up" data-aos-duration="1000">
+                    <Link className='seeMore' to={'https://sineverseproject.onrender.com/swagger/'}>See Website <i class="uil uil-arrow-up-right"></i></Link>
+                    <Link  to={'https://sineverseproject.onrender.com/swagger/'}><img src={back2}alt="" /></Link>
+                </div>
 
                 <div data-aos="fade-up" data-aos-duration="1000">
                     <Link className='seeMore' to={'https://tuitionaid.vercel.app/'}>See Website <i class="uil uil-arrow-up-right"></i></Link>
@@ -83,8 +92,6 @@ useEffect(() => {
                     <Link className='seeMore' to={'https://food-grab-web.vercel.app/'}>See Website <i class="uil uil-arrow-up-right"></i></Link>
                     <Link  to={'https://food-grab-web.vercel.app/'}><img src={imageEleven}alt="" /></Link>
                 </div>
-
-
 
                 <div data-aos="fade-up" data-aos-duration="1000">
                     <Link className='seeMore' to={'https://bmp-inovations.vercel.app/'}>See Website <i class="uil uil-arrow-up-right"></i></Link>
