@@ -24,9 +24,9 @@ const About = () => {
 
         <div data-aos="fade-up" data-aos-duration="3000">
           <h3>About me 🧑</h3>
-          <h2>I'm Bright C. Philip, Snr. Frontend Dev, Backend Dev based in PH, Nigeria. 🇳🇬</h2>
-          <p className='firstP'>I'm a creative full-stack developer, mobile developer  with a passion for creating innovative Web and mobile app and intuitive user experiences.</p>
-          <p className='secP'>With over three years of experience in both web2 and web3 technology, I have a unique skill-set that allows me design and develop products that are both functional, usable and visually appealing. </p>
+          <h2>I'm Bright C. Philip, Full-Stack Dev. based in PH, Nigeria. 🇳🇬</h2>
+          <p className='firstP'>I'm a creative full-stack developer with a passion for creating innovative Web and mobile app and intuitive user experiences.</p>
+          <p className='secP'>With over three years of experience in both web2 technology, I have a unique skill-set that allows me design and develop products that are both functional, usable and visually appealing. </p>
         </div>
       </section>
 
@@ -35,7 +35,7 @@ const About = () => {
           Since the beginning of my career in developer, 
           I have worked on a wide range of projects, including websites, 
           mobile apps, and software applications. 
-          I'm skilled in developing with django, DRF, React etc.
+          I'm skilled in developing with django, DRF, React, Next Js etc.
         </p>
 
         <p>

@@ -23,7 +23,7 @@ const SectionOne = () => {
       <section className='sectionOne'>
         <div data-aos="fade-up" data-aos-duration="3000" className='secOneDiv'>
           <h3>Hello 👋</h3>
-          <h2>I'm a Snr. Frontend Dev,  <br /> Backend Dev  based in PH, Nigeria. 🇳🇬</h2>
+          <h2>I'm a Full-Stack Developer based in PH, Nigeria. 🇳🇬</h2>
           <p className='firstP'>I'm a creative Full-stack developer, with a passion for creating innovative applications and intuitive user experiences.</p>
           <p className='secP'>With over three years of experience in the field, I have a unique skill-set that allows me develop products that are both functional, usable and visually appealing. </p>
           <div className='btnClass'>
