@@ -49,8 +49,8 @@ useEffect(() => {
             <div className='imageflex'>
 
                 <div data-aos="fade-up" data-aos-duration="1000">
-                    <Link className='seeMore' to={'https://crevenew.vercel.app/'}>See Website <i class="uil uil-arrow-up-right"></i></Link>
-                    <Link  to={'https://crevenew.vercel.app/'}><img src={imageFive}alt="" /></Link>
+                    <Link className='seeMore' to={'https://creve.live/'}>See Website <i class="uil uil-arrow-up-right"></i></Link>
+                    <Link  to={'https://creve.live/'}><img src={imageFive}alt="" /></Link>
                 </div>
 
 
